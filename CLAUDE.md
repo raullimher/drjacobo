@@ -27,11 +27,17 @@ Landing page para el Dr. Jacobo Núñez Ortiz, especialista en **Otorrinolaringo
 - [ ] Integración real del formulario (backend o servicio como Formspree)
 - [ ] Generación de imágenes con Replicate/Flux (MCP configurado, pendiente de usar)
 
+## Despliegue
+- **Netlify:** desplegado manualmente (drag & drop)
+- **GitHub:** https://github.com/raullimher/drjacobo (repo público, rama `main`)
+- **Vercel:** pendiente de conectar al repo de GitHub para auto-deploy
+
 ## Integraciones configuradas
 - **Replicate MCP** conectado en user config global - disponible para generar imágenes con Flux
 
 ## Próximos pasos sugeridos
-1. Generar imágenes con Replicate (foto hero + foto sobre el Dr.) una vez que el Dr. apruebe el placeholder
-2. Llenar datos reales de contacto
-3. Conectar formulario a un servicio real
-4. Considerar agregar sección de ubicación / mapa
+1. Conectar repo GitHub a Vercel para auto-deploy en cada `git push`
+2. Generar imágenes con Replicate (foto hero + foto sobre el Dr.) una vez que el Dr. apruebe el placeholder
+3. Llenar datos reales de contacto
+4. Conectar formulario a un servicio real
+5. Considerar agregar sección de ubicación / mapa
