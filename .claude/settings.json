@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"systemMessage\": \"Recuerda actualizar CLAUDE.md si hubo cambios importantes en el proyecto (nuevas secciones, decisiones de diseño, pendientes completados).\"}'",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}
